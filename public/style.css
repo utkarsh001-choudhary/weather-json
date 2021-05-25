@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .outer-div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      flex-wrap: wrap;
+  }
+
+  .inner-div{
+      max-width: 500px ;
+      background-color: bisque;
+      margin: auto;
+      padding:10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 25px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      overflow: hidden;
+     
+  }
+  .img{
+      transition: transform .5s ease;
+      width:200px;
+      height: 100px;
+  }
+  .img:hover{
+      transform:scale(1.1);
+  }
+ /* 
+  Temp?????????????? */
+  .outer-div-temp{
+    background-color: cadetblue;
+    text-align: center;
+    border-radius: 25px;
+    width: 360px;
+    padding: 10px ;
+   margin: auto;
+    
+}
+.cityName{
+    border-radius: 20px;
+   height: 24px;
+   margin-bottom: 5px;
+   text-align: center;
+   font-size: 1.2rem;
+}
+.city-button{
+    height: 30px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin :auto;
+    padding:auto;
+}
+.temperature{
+    margin:auto;
+}
+.img-temp{
+    margin:0;
+    margin-left: -8px;
+    width: 40px;
+    height: 40px;
+}
